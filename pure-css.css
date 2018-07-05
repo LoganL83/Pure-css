@@ -1,0 +1,43 @@
+.body{
+    display:flex;
+    flex-direction: row;
+  }
+  .button {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0        17px 50px 0 rgba(0,0,0,0.19);
+    position:fixed;
+    color: grey;
+    padding: 10px;
+    margin: 10px;
+    width: 30px
+    height: 30px;
+    cursor: pointer;
+    left: 150px;
+  }
+  .pub{
+    text-align: center;
+    text-size: 10px;
+  }
+  .connexion{
+    position:relative;
+    text-align:right;
+    top:px;
+    left:0px
+  }
+  .logo{
+    position:absolute;
+  }
+  .connexion{
+    color: grey;
+    padding: 10px;
+    margin: 10px;
+  }
+  .image{
+    position:absolute;
+    left:0;
+    top:13px;
+    
+  }
+  .text{
+    text-align:center;
+    z-index:-1;
+  }
